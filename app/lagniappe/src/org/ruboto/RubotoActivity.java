@@ -13,7 +13,9 @@ import org.ruboto.Script;
 import android.app.ProgressDialog;
 import android.os.Handler;
 
-public class RubotoActivity extends android.app.Activity {
+import com.app47.embeddedagent.EmbeddedAgentActivity;
+
+public class RubotoActivity extends EmbeddedAgentActivity {
   private ScriptingContainer __ruby__;
   private String scriptName;
   private String rubyClassName;
